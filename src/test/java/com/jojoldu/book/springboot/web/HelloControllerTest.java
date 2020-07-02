@@ -1,4 +1,4 @@
-package com.jojold.book.springboot.web;
+package com.jojoldu.book.springboot.web;
 
 
 import com.jojoldu.book.springboot.web.HelloController;
@@ -15,7 +15,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
-
 public class HelloControllerTest {
 
     @Autowired
